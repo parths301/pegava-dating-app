@@ -1,6 +1,8 @@
 import styled, { css } from "styled-components/native";
 import Text from "~components/Text";
 import { TouchableOpacityProps } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
+import { SparxColors } from "~src/themes";
 
 interface VariantProps {
   variant?: "outline" | "default";

@@ -24,13 +24,13 @@ export const RectangleHighLight = ({ children }) => (
 const HeroText: React.FC = () => {
   return (
     <Container>
-      <Title>Encontre </Title>
+      <Title>Find your </Title>
       <RectangleHighLight>
-        <Title style={{ color: "white" }}>pessoas</Title>
+        <Title style={{ color: "white" }}>perfect</Title>
       </RectangleHighLight>
-      <Title> perto de </Title>
+      <Title> </Title>
       <RectangleHighLight>
-        <Title style={{ color: "white" }}>você</Title>
+        <Title style={{ color: "white" }}>spark</Title>
       </RectangleHighLight>
     </Container>
   );

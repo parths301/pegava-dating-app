@@ -1,31 +1,31 @@
 {
-  "displayName": "Pegava",
+  "displayName": "Sparx",
   "expo": {
-    "name": "Pegava",
-    "description": "Aplicativo de relacionamento",
-    "scheme": "pegava",
-    "slug": "pegava",
+    "name": "Sparx",
+    "description": "Find your spark - Dating app",
+    "scheme": "sparx",
+    "slug": "sparx",
     "icon": "./src/assets/images/icon.png",
     "orientation": "portrait",
     "platforms": ["ios", "android"],
     "androidStatusBar": {
       "barStyle": "light-content",
-      "backgroundColor": "#070F26",
+      "backgroundColor": "#8aecff",
       "translucent": true
     },
     "splash": {
       "image": "./src/assets/images/splash@3x.png",
       "resizeMode": "contain",
-      "backgroundColor": "#070F26",
+      "backgroundColor": "#8aecff",
       "mdpi": "./src/assets/images/splash.png",
       "xhdpi": "./src/assets/images/splash@2x.png",
       "xxhdpi": "./src/assets/images/splash@3x.png"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#111D40"
+        "backgroundColor": "#8aecff"
       },
-      "package": "br.com.pegava"
+      "package": "com.sparx.app"
     },
     "packagerOpts": {
       "config": "metro.config.js",

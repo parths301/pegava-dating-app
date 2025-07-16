@@ -16,6 +16,7 @@ import { SceneName } from "~src/@types/SceneName";
 import SwipeView from "~views/Swipe";
 import EditProfileView from "~views/EditProfile";
 import MessagesView from "~views/Messages";
+import QuestionnaireView from "~views/Questionnaire";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 
 import Logo from "~images/Logo.svg";
@@ -99,7 +100,7 @@ function Router() {
         <Stack.Screen
           name={SceneName.EditProfile}
           options={{
-            headerTitle: "Crie seu perfil",
+            headerTitle: "Create your profile",
             headerShown: true,
             headerStyleInterpolator: HeaderStyleInterpolators.forUIKit,
           }}
@@ -113,6 +114,15 @@ function Router() {
           component={Authentication}
         />
         <Stack.Screen name={SceneName.OneTimeCode} component={OneTimeCode} />
+        <Stack.Screen
+          name={SceneName.Questionnaire}
+          options={{
+            headerTitle: "Personality Questions",
+            headerShown: true,
+            headerStyleInterpolator: HeaderStyleInterpolators.forUIKit,
+          }}
+          component={QuestionnaireView}
+        />
       </Stack.Group>
     </Stack.Navigator>
   );

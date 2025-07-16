@@ -1,5 +1,6 @@
 import type { User } from "~src/@types/User";
 import type { SceneName } from "~src/@types/SceneName";
+import { NavigatorScreenParams } from "@react-navigation/native";
 
 export type RootStackParamList = {
   [SceneName.Swipe]: undefined;
@@ -8,6 +9,7 @@ export type RootStackParamList = {
   [SceneName.Chat]: { user: User };
   [SceneName.Authentication]: undefined;
   [SceneName.OneTimeCode]: undefined;
+  [SceneName.Questionnaire]: undefined;
   [SceneName.UserProfile]: { user: User };
   [SceneName.Main]: NavigatorScreenParams<undefined>;
   [SceneName.EditProfile]: undefined;

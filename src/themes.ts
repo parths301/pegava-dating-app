@@ -48,15 +48,27 @@ export const DefaultConfigs = {
   },
 };
 
+export const SparxColors = {
+  primary: "#8aecff",
+  primaryDark: "#5dd9f5",
+  primaryLight: "#b3f0ff",
+  accent: "#00d4ff",
+  gradient: {
+    primary: ["#8aecff", "#5dd9f5"],
+    secondary: ["#b3f0ff", "#8aecff"],
+    accent: ["#00d4ff", "#8aecff"],
+  },
+};
+
 export const DarkTheme: DefaultThemeProps = {
   ...DefaultConfigs,
   dark: true,
   colors: {
-    primary: "#D45B90",
+    primary: SparxColors.primary,
     text: "#ffffff",
-    background: "#07112D",
-    secondaryBackground: "#111D40",
-    border: "#111D40",
+    background: "#0a1a2e",
+    secondaryBackground: "#16213e",
+    border: "#16213e",
   },
 };
 
@@ -64,11 +76,11 @@ export const LightTheme: DefaultThemeProps = {
   ...DefaultConfigs,
   dark: false,
   colors: {
-    primary: "#EE61A1",
-    text: "#070F26",
+    primary: SparxColors.primary,
+    text: "#0a1a2e",
     background: "#ffffff",
-    secondaryBackground: "#F8F8F8",
-    border: "#f2f2f2",
+    secondaryBackground: "#f0fbff",
+    border: "#e6f9ff",
   },
 };
 

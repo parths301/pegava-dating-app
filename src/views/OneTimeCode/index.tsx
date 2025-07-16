@@ -41,7 +41,7 @@ const Authentication = () => {
     if (keyboardInput.length === CODE_LENGTH) {
       navigation.reset({
         index: 0,
-        routes: [{ name: SceneName.EditProfile }],
+        routes: [{ name: SceneName.Questionnaire }],
       });
     }
   }, [keyboardInput]);
@@ -60,7 +60,7 @@ const Authentication = () => {
         <TopColumn>
           <Timer>{formattedTime}</Timer>
           <Description>
-            Insira o código de verificação que te enviamos
+            Enter the verification code we sent you
           </Description>
           <CodeInput value={keyboardInput} length={CODE_LENGTH} />
         </TopColumn>
@@ -86,7 +86,7 @@ const Authentication = () => {
       >
         <Underline>
           <Text fontSize="large" fontWeight="bold">
-            Reenviar o código
+            Resend code
           </Text>
         </Underline>
       </ResendCode>

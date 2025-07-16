@@ -1,14 +1,6 @@
-![Cover](https://user-images.githubusercontent.com/50031755/178385492-ad9ae4c3-87fd-4710-94ad-3b6921aa10e8.png)
+# Sparx - Find Your Spark ✨
 
-[![Author](https://img.shields.io/badge/author-GSTJ-F2C702?style=flat-square)](https://github.com/GSTJ)
-[![Languages](https://img.shields.io/github/languages/count/GSTJ/PegavaDatingApp?color=%23F2C702&style=flat-square)](#)
-[![Stars](https://img.shields.io/github/stars/GSTJ/PegavaDatingApp?color=F2C702&style=flat-square)](https://github.com/GSTJ/PegavaDatingApp/stargazers)
-[![Forks](https://img.shields.io/github/forks/GSTJ/PegavaDatingApp?color=%23F2C702&style=flat-square)](https://github.com/GSTJ/PegavaDatingApp/network/members)
-[![Contributors](https://img.shields.io/github/contributors/GSTJ/PegavaDatingApp?color=F2C702&style=flat-square)](https://github.com/GSTJ/PegavaDatingApp/graphs/contributors)
-
----
-> [!WARNING]  
-Want a production-ready version of this example repository? Check out [Pegada](https://github.com/GSTJ/pegada)
+A modern dating app built with React Native and Expo, featuring a beautiful UI and smooth user experience.
 
 ---
 
@@ -38,16 +30,16 @@ https://user-images.githubusercontent.com/50031755/182279427-2f190d81-1b98-4e3f-
 
 1. **Clone the repository**
 
-   Via HTTPS: `git clone https://github.com/GSTJ/PegavaDatingApp.git`
+   Via HTTPS: `git clone https://github.com/YourUsername/Sparx.git`
 
-   Via SSH: `git clone git@github.com:GSTJ/PegavaDatingApp.git`
+   Via SSH: `git clone git@github.com:YourUsername/Sparx.git`
 
 2. **Install the necessary packages.**
 
    Go to the main directory and install the necessary packages
 
    ```sh
-   cd PegavaDatingApp/
+   cd Sparx/
    yarn
    ```
 
@@ -61,19 +53,17 @@ https://user-images.githubusercontent.com/50031755/182279427-2f190d81-1b98-4e3f-
 
 # :postbox: FAQ
 
-### 🙋‍ What is Pegava?
+### 🙋‍ What is Sparx?
 
-Pegava is supposed to be a dating app. I made it back at the pandemic's beginning but was never released. So I'm making it open source so the community can take a look and maybe use it better. I rapidly refactored it recently to make sure things are up to date after more than a year without updates.
+Sparx is a modern dating app inspired by Bumble, designed to help people find meaningful connections. The app features a beautiful cyan-themed UI (#8aecff) and includes a comprehensive 13-question personality questionnaire during signup to improve matching quality.
 
-### 📲 Can I try the app?
+### ✨ Key Features
 
-Yes! Simply download the Expo app and scan the QR code below:
-
-<a href="https://exp.host/@gstj/pegava">
-<img src="https://user-images.githubusercontent.com/50031755/177367465-47e90a23-e2a6-4db8-9519-8c60cb4fd558.svg" width="250" height="250"/>
-</a>
-
-More detailed instructions can be found here: https://exp.host/@gstj/pegava
+- **Personality Questionnaire**: 13 subjective questions during signup for better matching
+- **Modern UI**: Beautiful cyan gradient theme with smooth animations
+- **Swipe Interface**: Intuitive card-based matching system
+- **Real-time Chat**: Seamless messaging experience
+- **Profile Customization**: Comprehensive profile editing
 
 ### 👨‍🔬 What are the technologies used?
 

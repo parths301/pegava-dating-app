@@ -20,7 +20,7 @@ const PhoneInput: React.FC<TextInputProps> = (props) => {
   return (
     <Container>
       <CountryCodeContainer>
-        <CountryCodeText>🇧🇷 +55</CountryCodeText>
+        <CountryCodeText>🇺🇸 +1</CountryCodeText>
       </CountryCodeContainer>
       <Separator />
       <TextInput

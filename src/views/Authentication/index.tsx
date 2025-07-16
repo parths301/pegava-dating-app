@@ -60,21 +60,20 @@ const Authentication = () => {
         </TopCard>
         <BottomCard style={{ paddingBottom: bottomInset }}>
           <Title>
-            Insira seu <Highlight>celular</Highlight>
+            Enter your <Highlight>phone number</Highlight>
           </Title>
           <Description>
-            Vamos enviar um código de 4 digitos para autorizar sua conta. Se
-            ainda não tem uma, vamos cria-la
+            We'll send you a 4-digit code to verify your account. If you don't have one, we'll create it for you.
           </Description>
           <PhoneInput
             enablesReturnKeyAutomatically
             returnKeyType="send"
             onSubmitEditing={handleLogin}
             blurOnSubmit={false}
-            placeholder="(99) 99999-9999"
+            placeholder="(555) 123-4567"
           />
           <Button loading={loading} onPress={handleLogin}>
-            Continuar
+            Continue
           </Button>
         </BottomCard>
       </KeyboardAvoidingView>

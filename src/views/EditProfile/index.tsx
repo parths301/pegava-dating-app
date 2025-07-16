@@ -134,29 +134,29 @@ const EditProfile = ({ route }) => {
             }}
           />
           <Input
-            title="Meu nome"
-            placeholder="Como gostaria que te apresentássemos?"
+            title="My name"
+            placeholder="How would you like to be introduced?"
             value={name}
             onChangeText={setName}
             maxLength={50}
           />
           <Input
-            title="Sobre mim"
-            placeholder="Conte alguma coisa legal sobre você"
+            title="About me"
+            placeholder="Tell us something interesting about yourself"
             value={bio}
             onChangeText={setBio}
             maxLength={500}
             multiline
           />
           <RadioButtons
-            title="Sexo"
-            data={["Homem", "Mulher", "Outro"]}
+            title="Gender"
+            data={["Man", "Woman", "Other"]}
             value={gender}
             onChange={setGender}
           />
           <RadioButtons
-            title="Mostrar-me"
-            data={["Homem", "Mulher", "Todos"]}
+            title="Show me"
+            data={["Men", "Women", "Everyone"]}
             value={genderOfInterest}
             onChange={setGenderOfInterest}
           />
@@ -167,7 +167,7 @@ const EditProfile = ({ route }) => {
             navigation.navigate(SceneName.Main, { screen: SceneName.Swipe })
           }
         >
-          Salvar perfil
+          Save Profile
         </ContinueButton>
       </KeyboardAvoidingView>
       <BottomPadding
